@@ -20,6 +20,7 @@ Sample spring project using Spring Profiles, automation Test and deploy in Cloud
 * Xmx512m this values is important if you use the free version, for limited memory when do deploy heroku cloud
 
 ## 2- Follow the steps to create a docker image for the project, don't forget to create a docker image the project need to be .jar application and not .war 
+## 2.1 - Create Docker Images
 
 ### Execute 
 
