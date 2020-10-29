@@ -3,7 +3,7 @@ Sample spring project using Spring Profiles, automation Test and deploy in Cloud
 
 # Import Step for Configuration Docker image. 
 
-1- Create a sample file "Dockerfile" and need to pass the parameters bellow
+## 1- Create a sample file "Dockerfile" and need to pass the parameters bellow
 
 * FROM openjdk:8-jdk-alpine
 
@@ -19,7 +19,7 @@ Sample spring project using Spring Profiles, automation Test and deploy in Cloud
 
 * Xmx512m this values is important if you use the free version, for limited memory when do deploy heroku cloud
 
-2- Follow the steps to create a image for the project, for create a docker image the project need to be .jar application and not .war 
+## 2- Follow the steps to create a image for the project, for create a docker image the project need to be .jar application and not .war 
 
 Execute 
 
@@ -27,11 +27,11 @@ Execute
 
 * "docker image list" for confirmed if the create image
 
-3 - Create a Docker Container
+## 3 - Create a Docker Container
 
 * "docker run imagem/name" this step need to pass some configurations for the enviroments variables. 
 
-* Example: 
+## Example: 
 * -p 8080:8080 -e NAME_DATABASE_URL='jdbc:he:mem:name-project' -e NAME_DATABASE_USERNAME='sa' -e NAME_DATABASE_PASSWORD='' -e NAME_JWT_SECRET='123456'.
 
 after to pass the enviroments variables go to docker and execute the command bellow. 
