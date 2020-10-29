@@ -1,7 +1,7 @@
 # SpringProfile
 Sample spring project using Spring Profiles, automation Test and deploy in Cloud, through Docker image. 
 
-# Import Step for Configuration Docker image. 
+# Steps for Configuration Docker image. 
 
 ## 1- Create a sample file "Dockerfile" and need to pass the parameters bellow
 
